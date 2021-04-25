@@ -36,7 +36,7 @@ def main():
      h = float(input())
      speed(10)
      a = 2.0**(2.0*h)
-     brown(0.0, 0.0, 0.0, 0.0, 0.7, a)
+     brown(0.0, 0.0, 0.0, 0.0, 0.5, a)
      mainloop()
 
 
