@@ -6,7 +6,7 @@ from turtle import penup, pendown, goto, mainloop, speed
 from random import random
 from math import sqrt
 
-def brown (x0,y0,x1,y1, disp, p, n=8, m=500):
+def brown (x0, y0, x1, y1, disp, p, n=8, m=500):
      ''' Рекурсивная функция построения Броуновского моста.
      Параметры:
      x0, y0, x1, y1 - координаты двух точек
@@ -35,7 +35,7 @@ def brown (x0,y0,x1,y1, disp, p, n=8, m=500):
 def main():
      h = float(input())
      speed(10)
-     a = 2.0**(2.0*h)
+     a = 2.0 ** (2.0 * h)
      brown(0.0, 0.0, 0.0, 0.0, 0.5, a)
      mainloop()
 
